@@ -1,4 +1,5 @@
 body {
+    /* la font déclarée ici ne s'applique pas partout (ex : barre de recherche). Trouver pourquoi. */
     max-width: 1400px;
     font-family: 'Raleway';
 }
@@ -30,7 +31,7 @@ body {
     border-top: 2px white solid;
     padding-top: 46px;
     padding-left: 10px;
-    padding-right: 10px
+    padding-right: 24px;
 }
 
 .menu_logements:hover {
@@ -44,11 +45,64 @@ body {
     position: relative;
     border-top: 2px white solid;
     padding-top: 46px;
-    padding-left: 10px;
-    padding-right: 10px
+    padding-left: 24px;
+    padding-right: 10px;
 }
 
 .menu_activities:hover {
     color: #0065FC;
     border-top-color: #0065FC;
+}
+
+/* titres et paragraphes */
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* barre de recherche */
+
+.research_bar {
+    display: flex;
+    border-radius: 15px;
+    width: 464px;
+    height: 49px;
+
+}
+
+.research_icon {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.research_input {
+    /* trouver comment mettre la couleur noire au texte */
+    width: 232px;
+    font-size: 100%;
+    font-family: Raleway;
+    font-weight: 700;
+    padding-left: 17px;
+    border-left: none;
+    border: 1px solid #F2F2F2;
+}
+
+.research_button {
+    background-color: #0065FC;
+    color: white;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 100%;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
 }
