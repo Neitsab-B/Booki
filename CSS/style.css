@@ -1,0 +1,54 @@
+body {
+    max-width: 1400px;
+    font-family: 'Raleway';
+}
+
+/* header */
+#header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 44px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_logements {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    border-top: 2px white solid;
+    padding-top: 46px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.menu_logements:hover {
+    color: #0065FC;
+    border-top-color: #0065FC;
+}
+
+.menu_activities {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    border-top: 2px white solid;
+    padding-top: 46px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.menu_activities:hover {
+    color: #0065FC;
+    border-top-color: #0065FC;
+}
