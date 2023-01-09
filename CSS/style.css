@@ -193,13 +193,13 @@ header {
 
 /* article desktop */
 
-#logement-article {
+article {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 68%;
 }
 
-#logement-article h2 {
+article h2 {
     font-weight: 700;
     font-size: 22px;
     margin-left: 4%;
@@ -277,7 +277,7 @@ header {
 
 /* aside desktop */
 
-#famous-aside {
+aside {
     background-color: #F2F2F2;
     width: 30%;
     height: 625px;
@@ -393,7 +393,7 @@ header {
 
 /* footer desktop */
 
-#footer {
+footer {
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
@@ -404,7 +404,7 @@ header {
     padding-bottom: 50px;
 }
 
-#footer h3 {
+footer h3 {
     font-weight: 700;
 }
 
@@ -428,11 +428,11 @@ header {
         display: block;
     }
 
-    #logement-article {
+    article {
         width: 100%;
     }
 
-    #logement-article h2 {
+    article h2 {
         padding-top: 2%;
     }
 
@@ -442,7 +442,7 @@ header {
 
     /* famous aside pad*/
 
-    #famous-aside {
+    aside {
         width: 100%;
         height: 278px;
     }
@@ -619,7 +619,7 @@ header {
         margin-right: 3%;
     }
 
-    #famous-aside {
+    aside {
         border-radius: 0;
         width: 100%;
         height: 100%;
@@ -649,11 +649,11 @@ header {
 
     /* logement article mobile */
 
-    #logement-article {
+    article {
         background-color: white;
     }
 
-    #logement-article h2 {
+    article h2 {
         margin-left: 6%;
     }
 
@@ -716,7 +716,7 @@ header {
 
     /* footer mobile */
 
-    #footer {
+    footer {
         width: 100%;
         margin-left: 0;
         flex-direction: column;
