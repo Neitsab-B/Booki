@@ -10,7 +10,7 @@
 body {
     max-width: 1400px;
     font-family: 'Raleway';
-    margin: 0 3% 0 3%;
+    margin: auto;
 }
 
 /* header desktop */
@@ -570,7 +570,7 @@ footer h3 {
     }
 
     #all-filters {
-        width: 100%;
+        width: 87%;
         justify-content: flex-start;
         flex-wrap: wrap;
     }
